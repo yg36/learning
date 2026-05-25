@@ -1,0 +1,1800 @@
+{
+    "schema_version": "1.0",
+    "response_type": "ui_components",
+    "request_id": "sample_02",
+    "generated_at": "2026-05-22T11:14:03+00:00",
+    "query": {
+        "raw": "oily skin sunscreen for summer under 800",
+        "normalized": "oily skin sunscreen for summer under 800",
+        "intent": "search",
+        "language": "english"
+    },
+    "detected_context": {
+        "skin_type": "oily",
+        "user_age": null,
+        "age_group": null,
+        "product_type": "sunscreen",
+        "skin_concerns": [
+            "oiliness",
+            "sun protection"
+        ],
+        "requested_ingredients": [],
+        "avoided_ingredients": [],
+        "safety_flags": {
+            "pregnancy_safe_required": false,
+            "vegan_preference": false,
+            "cruelty_free_preference": false
+        }
+    },
+    "summary": {
+        "component_count": 8,
+        "primary_component_id": "safety-summary",
+        "safety_severity": "info"
+    },
+    "components": [
+        {
+            "component_id": "safety-summary",
+            "component_type": "safety_banner",
+            "title": "Safety notes",
+            "priority": 1,
+            "layout": "full_width_banner",
+            "severity": "info",
+            "message": "No high-risk skincare safety constraints detected for this query.",
+            "items": [
+                "No high-risk skincare safety constraints detected for this query."
+            ],
+            "render_hints": {
+                "icon": "shield",
+                "tone": "info",
+                "dismissible": false
+            }
+        },
+        {
+            "component_id": "match_query",
+            "component_type": "hero_product_carousel",
+            "title": "Best Match For This Query",
+            "priority": 2,
+            "layout": "large_card_carousel",
+            "catalog_type": "query_match",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "matte_mineral_spf50_sunscreen",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Matte Mineral Sunscreen SPF50",
+                    "subtitle": "Re'Equil - Sunscreen",
+                    "brand": "Re'equil",
+                    "product_type": "sunscreen",
+                    "price": 780.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "spf",
+                        "matte",
+                        "oil-control",
+                        "outdoor"
+                    ],
+                    "badges": [
+                        "SPF 50",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Non-comedogenic",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Matte Mineral Sunscreen SPF50",
+                        "subtitle": "Re'Equil - Sunscreen",
+                        "price_text": "INR 780",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 50 / Pregnancy safe / Fragrance free"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "zinc-oxide",
+                            "titanium-dioxide",
+                            "silica",
+                            "sun protection",
+                            "oiliness"
+                        ],
+                        "confidence": 0.22,
+                        "score": 343.663
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1020"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_1",
+                        "rank": 1,
+                        "product_id": "SK1020",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "balm_barrier_lip_spf30",
+                    "card_variant": "budget_card",
+                    "rank": 2,
+                    "title": "Lip Barrier Balm SPF30",
+                    "subtitle": "Sebamed - Lip Balm",
+                    "brand": "Sebamed",
+                    "product_type": "lip balm",
+                    "price": 350.0,
+                    "rating": 4.1,
+                    "primary_tags": [
+                        "lip-care",
+                        "spf",
+                        "barrier",
+                        "travel"
+                    ],
+                    "badges": [
+                        "SPF 30",
+                        "Pregnancy safe",
+                        "Budget pick"
+                    ],
+                    "display": {
+                        "title": "Lip Barrier Balm SPF30",
+                        "subtitle": "Sebamed - Lip Balm",
+                        "price_text": "INR 350",
+                        "rating_text": "4.1 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 30 / Pregnancy safe / Budget pick"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "shea-butter",
+                            "vitamin-e",
+                            "uv-filters",
+                            "sun protection",
+                            "dryness"
+                        ],
+                        "confidence": 0.24,
+                        "score": 274.085
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_2",
+                        "rank": 2,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "product_card",
+                    "rank": 3,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.297,
+                        "score": 260.432
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_3",
+                        "rank": 3,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "aloe_mist_recovery",
+                    "card_variant": "budget_card",
+                    "rank": 4,
+                    "title": "Aloe Recovery Mist",
+                    "subtitle": "Plum - Mist",
+                    "brand": "Plum",
+                    "product_type": "mist",
+                    "price": 420.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "calming",
+                        "travel",
+                        "hydration",
+                        "summer"
+                    ],
+                    "badges": [
+                        "Pregnancy safe",
+                        "Budget pick",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Aloe Recovery Mist",
+                        "subtitle": "Plum - Mist",
+                        "price_text": "INR 420",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Pregnancy safe / Budget pick / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "aloe",
+                            "cucumber",
+                            "green-tea",
+                            "dehydration",
+                            "redness"
+                        ],
+                        "confidence": 0.207,
+                        "score": 274.122
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1037"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_4",
+                        "rank": 4,
+                        "product_id": "SK1037",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "match_query",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "ready_weather",
+            "component_type": "product_carousel",
+            "title": "Weather-Ready Skincare",
+            "priority": 3,
+            "layout": "comparison",
+            "catalog_type": "weather_ready",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "matte_mineral_spf50_sunscreen",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Matte Mineral Sunscreen SPF50",
+                    "subtitle": "Re'Equil - Sunscreen",
+                    "brand": "Re'equil",
+                    "product_type": "sunscreen",
+                    "price": 780.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "spf",
+                        "matte",
+                        "oil-control",
+                        "outdoor"
+                    ],
+                    "badges": [
+                        "SPF 50",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Non-comedogenic",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Matte Mineral Sunscreen SPF50",
+                        "subtitle": "Re'Equil - Sunscreen",
+                        "price_text": "INR 780",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 50 / Pregnancy safe / Fragrance free"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "zinc-oxide",
+                            "titanium-dioxide",
+                            "silica",
+                            "sun protection",
+                            "oiliness"
+                        ],
+                        "confidence": 0.22,
+                        "score": 343.663
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1020"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "ready_weather",
+                        "slot_id": "ready_weather_1",
+                        "rank": 1,
+                        "product_id": "SK1020",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "balm_barrier_lip_spf30",
+                    "card_variant": "budget_card",
+                    "rank": 2,
+                    "title": "Lip Barrier Balm SPF30",
+                    "subtitle": "Sebamed - Lip Balm",
+                    "brand": "Sebamed",
+                    "product_type": "lip balm",
+                    "price": 350.0,
+                    "rating": 4.1,
+                    "primary_tags": [
+                        "lip-care",
+                        "spf",
+                        "barrier",
+                        "travel"
+                    ],
+                    "badges": [
+                        "SPF 30",
+                        "Pregnancy safe",
+                        "Budget pick"
+                    ],
+                    "display": {
+                        "title": "Lip Barrier Balm SPF30",
+                        "subtitle": "Sebamed - Lip Balm",
+                        "price_text": "INR 350",
+                        "rating_text": "4.1 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 30 / Pregnancy safe / Budget pick"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "shea-butter",
+                            "vitamin-e",
+                            "uv-filters",
+                            "sun protection",
+                            "dryness"
+                        ],
+                        "confidence": 0.24,
+                        "score": 274.085
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "ready_weather",
+                        "slot_id": "ready_weather_2",
+                        "rank": 2,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "aloe_mist_recovery",
+                    "card_variant": "budget_card",
+                    "rank": 3,
+                    "title": "Aloe Recovery Mist",
+                    "subtitle": "Plum - Mist",
+                    "brand": "Plum",
+                    "product_type": "mist",
+                    "price": 420.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "calming",
+                        "travel",
+                        "hydration",
+                        "summer"
+                    ],
+                    "badges": [
+                        "Pregnancy safe",
+                        "Budget pick",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Aloe Recovery Mist",
+                        "subtitle": "Plum - Mist",
+                        "price_text": "INR 420",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Pregnancy safe / Budget pick / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "aloe",
+                            "cucumber",
+                            "green-tea",
+                            "dehydration",
+                            "redness"
+                        ],
+                        "confidence": 0.207,
+                        "score": 274.122
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1037"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "ready_weather",
+                        "slot_id": "ready_weather_3",
+                        "rank": 3,
+                        "product_id": "SK1037",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "ready_weather",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "concern_solution",
+            "component_type": "product_carousel",
+            "title": "Concern-Focused Picks",
+            "priority": 4,
+            "layout": "comparison",
+            "catalog_type": "concern_solution",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "matte_mineral_spf50_sunscreen",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Matte Mineral Sunscreen SPF50",
+                    "subtitle": "Re'Equil - Sunscreen",
+                    "brand": "Re'equil",
+                    "product_type": "sunscreen",
+                    "price": 780.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "spf",
+                        "matte",
+                        "oil-control",
+                        "outdoor"
+                    ],
+                    "badges": [
+                        "SPF 50",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Non-comedogenic",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Matte Mineral Sunscreen SPF50",
+                        "subtitle": "Re'Equil - Sunscreen",
+                        "price_text": "INR 780",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 50 / Pregnancy safe / Fragrance free"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "zinc-oxide",
+                            "titanium-dioxide",
+                            "silica",
+                            "sun protection",
+                            "oiliness"
+                        ],
+                        "confidence": 0.22,
+                        "score": 343.663
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1020"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "concern_solution",
+                        "slot_id": "concern_solution_1",
+                        "rank": 1,
+                        "product_id": "SK1020",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "product_card",
+                    "rank": 2,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.297,
+                        "score": 260.432
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "concern_solution",
+                        "slot_id": "concern_solution_2",
+                        "rank": 2,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "aloe_mist_recovery",
+                    "card_variant": "budget_card",
+                    "rank": 3,
+                    "title": "Aloe Recovery Mist",
+                    "subtitle": "Plum - Mist",
+                    "brand": "Plum",
+                    "product_type": "mist",
+                    "price": 420.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "calming",
+                        "travel",
+                        "hydration",
+                        "summer"
+                    ],
+                    "badges": [
+                        "Pregnancy safe",
+                        "Budget pick",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Aloe Recovery Mist",
+                        "subtitle": "Plum - Mist",
+                        "price_text": "INR 420",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Pregnancy safe / Budget pick / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "aloe",
+                            "cucumber",
+                            "green-tea",
+                            "dehydration",
+                            "redness"
+                        ],
+                        "confidence": 0.207,
+                        "score": 274.122
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1037"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "concern_solution",
+                        "slot_id": "concern_solution_3",
+                        "rank": 3,
+                        "product_id": "SK1037",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "balm_barrier_lip_spf30",
+                    "card_variant": "budget_card",
+                    "rank": 4,
+                    "title": "Lip Barrier Balm SPF30",
+                    "subtitle": "Sebamed - Lip Balm",
+                    "brand": "Sebamed",
+                    "product_type": "lip balm",
+                    "price": 350.0,
+                    "rating": 4.1,
+                    "primary_tags": [
+                        "lip-care",
+                        "spf",
+                        "barrier",
+                        "travel"
+                    ],
+                    "badges": [
+                        "SPF 30",
+                        "Pregnancy safe",
+                        "Budget pick"
+                    ],
+                    "display": {
+                        "title": "Lip Barrier Balm SPF30",
+                        "subtitle": "Sebamed - Lip Balm",
+                        "price_text": "INR 350",
+                        "rating_text": "4.1 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 30 / Pregnancy safe / Budget pick"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "shea-butter",
+                            "vitamin-e",
+                            "uv-filters",
+                            "sun protection",
+                            "dryness"
+                        ],
+                        "confidence": 0.24,
+                        "score": 274.085
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "concern_solution",
+                        "slot_id": "concern_solution_4",
+                        "rank": 4,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "concern_solution",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "next_routine_step",
+            "component_type": "routine_product_carousel",
+            "title": "Next Routine Step",
+            "priority": 5,
+            "layout": "step_based_row",
+            "catalog_type": "routine_next_step",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "matte_mineral_spf50_sunscreen",
+                    "card_variant": "routine_step_card",
+                    "rank": 1,
+                    "title": "Matte Mineral Sunscreen SPF50",
+                    "subtitle": "Re'Equil - Sunscreen",
+                    "brand": "Re'equil",
+                    "product_type": "sunscreen",
+                    "price": 780.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "spf",
+                        "matte",
+                        "oil-control",
+                        "outdoor"
+                    ],
+                    "badges": [
+                        "SPF 50",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Non-comedogenic",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Matte Mineral Sunscreen SPF50",
+                        "subtitle": "Re'Equil - Sunscreen",
+                        "price_text": "INR 780",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 50 / Pregnancy safe / Fragrance free"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "zinc-oxide",
+                            "titanium-dioxide",
+                            "silica",
+                            "sun protection",
+                            "oiliness"
+                        ],
+                        "confidence": 0.22,
+                        "score": 343.663
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1020"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_1",
+                        "rank": 1,
+                        "product_id": "SK1020",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "aloe_mist_recovery",
+                    "card_variant": "routine_step_card",
+                    "rank": 2,
+                    "title": "Aloe Recovery Mist",
+                    "subtitle": "Plum - Mist",
+                    "brand": "Plum",
+                    "product_type": "mist",
+                    "price": 420.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "calming",
+                        "travel",
+                        "hydration",
+                        "summer"
+                    ],
+                    "badges": [
+                        "Pregnancy safe",
+                        "Budget pick",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Aloe Recovery Mist",
+                        "subtitle": "Plum - Mist",
+                        "price_text": "INR 420",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Pregnancy safe / Budget pick / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "aloe",
+                            "cucumber",
+                            "green-tea",
+                            "dehydration",
+                            "redness"
+                        ],
+                        "confidence": 0.207,
+                        "score": 274.122
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1037"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_2",
+                        "rank": 2,
+                        "product_id": "SK1037",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "balm_barrier_lip_spf30",
+                    "card_variant": "routine_step_card",
+                    "rank": 3,
+                    "title": "Lip Barrier Balm SPF30",
+                    "subtitle": "Sebamed - Lip Balm",
+                    "brand": "Sebamed",
+                    "product_type": "lip balm",
+                    "price": 350.0,
+                    "rating": 4.1,
+                    "primary_tags": [
+                        "lip-care",
+                        "spf",
+                        "barrier",
+                        "travel"
+                    ],
+                    "badges": [
+                        "SPF 30",
+                        "Pregnancy safe",
+                        "Budget pick"
+                    ],
+                    "display": {
+                        "title": "Lip Barrier Balm SPF30",
+                        "subtitle": "Sebamed - Lip Balm",
+                        "price_text": "INR 350",
+                        "rating_text": "4.1 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 30 / Pregnancy safe / Budget pick"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "shea-butter",
+                            "vitamin-e",
+                            "uv-filters",
+                            "sun protection",
+                            "dryness"
+                        ],
+                        "confidence": 0.24,
+                        "score": 274.085
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_3",
+                        "rank": 3,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "routine_step_card",
+                    "rank": 4,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.297,
+                        "score": 260.432
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_4",
+                        "rank": 4,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "next_routine_step",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "trending",
+            "component_type": "product_carousel",
+            "title": "Trending Skincare Picks",
+            "priority": 6,
+            "layout": "comparison",
+            "catalog_type": "trending",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "matte_mineral_spf50_sunscreen",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Matte Mineral Sunscreen SPF50",
+                    "subtitle": "Re'Equil - Sunscreen",
+                    "brand": "Re'equil",
+                    "product_type": "sunscreen",
+                    "price": 780.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "spf",
+                        "matte",
+                        "oil-control",
+                        "outdoor"
+                    ],
+                    "badges": [
+                        "SPF 50",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Non-comedogenic",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Matte Mineral Sunscreen SPF50",
+                        "subtitle": "Re'Equil - Sunscreen",
+                        "price_text": "INR 780",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 50 / Pregnancy safe / Fragrance free"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "zinc-oxide",
+                            "titanium-dioxide",
+                            "silica",
+                            "sun protection",
+                            "oiliness"
+                        ],
+                        "confidence": 0.22,
+                        "score": 343.663
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1020"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_1",
+                        "rank": 1,
+                        "product_id": "SK1020",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "aloe_mist_recovery",
+                    "card_variant": "budget_card",
+                    "rank": 2,
+                    "title": "Aloe Recovery Mist",
+                    "subtitle": "Plum - Mist",
+                    "brand": "Plum",
+                    "product_type": "mist",
+                    "price": 420.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "calming",
+                        "travel",
+                        "hydration",
+                        "summer"
+                    ],
+                    "badges": [
+                        "Pregnancy safe",
+                        "Budget pick",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Aloe Recovery Mist",
+                        "subtitle": "Plum - Mist",
+                        "price_text": "INR 420",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Pregnancy safe / Budget pick / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "aloe",
+                            "cucumber",
+                            "green-tea",
+                            "dehydration",
+                            "redness"
+                        ],
+                        "confidence": 0.207,
+                        "score": 274.122
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1037"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_2",
+                        "rank": 2,
+                        "product_id": "SK1037",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "balm_barrier_lip_spf30",
+                    "card_variant": "budget_card",
+                    "rank": 3,
+                    "title": "Lip Barrier Balm SPF30",
+                    "subtitle": "Sebamed - Lip Balm",
+                    "brand": "Sebamed",
+                    "product_type": "lip balm",
+                    "price": 350.0,
+                    "rating": 4.1,
+                    "primary_tags": [
+                        "lip-care",
+                        "spf",
+                        "barrier",
+                        "travel"
+                    ],
+                    "badges": [
+                        "SPF 30",
+                        "Pregnancy safe",
+                        "Budget pick"
+                    ],
+                    "display": {
+                        "title": "Lip Barrier Balm SPF30",
+                        "subtitle": "Sebamed - Lip Balm",
+                        "price_text": "INR 350",
+                        "rating_text": "4.1 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "SPF 30 / Pregnancy safe / Budget pick"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "shea-butter",
+                            "vitamin-e",
+                            "uv-filters",
+                            "sun protection",
+                            "dryness"
+                        ],
+                        "confidence": 0.24,
+                        "score": 274.085
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_3",
+                        "rank": 3,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "product_card",
+                    "rank": 4,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Targets the skin concern detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Targets the skin concern detected from your query.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.297,
+                        "score": 260.432
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_4",
+                        "rank": 4,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "trending",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "routine-timeline",
+            "component_type": "routine_timeline",
+            "title": "Suggested routine",
+            "priority": 7,
+            "layout": "two_lane_timeline",
+            "sections": [
+                {
+                    "title": "Morning",
+                    "steps": [
+                        {
+                            "step_id": "morning_1",
+                            "step": "cleanse",
+                            "label": "Cleanser",
+                            "title": "Rice Brightening Face Wash",
+                            "product_type": "cleanser",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_2",
+                            "step": "tone",
+                            "label": "Toner",
+                            "title": "Green Tea Balancing Toner",
+                            "product_type": "toner",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_3",
+                            "step": "treat",
+                            "label": "Serum/Treatment",
+                            "title": "Vitamin C Glow Serum",
+                            "product_type": "serum",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_4",
+                            "step": "moisturize",
+                            "label": "Moisturizer",
+                            "title": "Hyaluronic Acid Water Gel",
+                            "product_type": "moisturizer",
+                            "why": "Supports the barrier and reduces irritation risk."
+                        },
+                        {
+                            "step_id": "morning_5",
+                            "step": "protect",
+                            "label": "Sunscreen",
+                            "title": "Matte Mineral Sunscreen SPF50",
+                            "product_type": "sunscreen",
+                            "why": "Protects the routine with SPF."
+                        }
+                    ]
+                },
+                {
+                    "title": "Night",
+                    "steps": [
+                        {
+                            "step_id": "night_1",
+                            "step": "cleanse",
+                            "label": "Cleanser",
+                            "title": "Rice Brightening Face Wash",
+                            "product_type": "cleanser",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_2",
+                            "step": "tone",
+                            "label": "Toner",
+                            "title": "Green Tea Balancing Toner",
+                            "product_type": "toner",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_3",
+                            "step": "treat",
+                            "label": "Treatment",
+                            "title": "Oil Control Niacinamide Serum",
+                            "product_type": "serum",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_4",
+                            "step": "moisturize",
+                            "label": "Moisturizer",
+                            "title": "Hyaluronic Acid Water Gel",
+                            "product_type": "moisturizer",
+                            "why": "Supports the barrier and reduces irritation risk."
+                        },
+                        {
+                            "step_id": "night_5",
+                            "step": "seal",
+                            "label": "Face Oil/Seal",
+                            "title": "Squalane Nourishing Face Oil",
+                            "product_type": "face oil",
+                            "why": "Fits the routine step and current recommendation context."
+                        }
+                    ]
+                }
+            ],
+            "notes": [],
+            "render_hints": {
+                "show_step_numbers": true,
+                "group_by_period": true
+            }
+        },
+        {
+            "component_id": "top-product-comparison",
+            "component_type": "comparison_table",
+            "title": "Quick comparison",
+            "priority": 8,
+            "layout": "responsive_table",
+            "columns": [
+                {
+                    "product_id": "SK1020",
+                    "title": "Matte Mineral Sunscreen SPF50",
+                    "card_variant": "comparison_card",
+                    "badges": [
+                        "SPF 50",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ]
+                },
+                {
+                    "product_id": "SK1055",
+                    "title": "Lip Barrier Balm SPF30",
+                    "card_variant": "comparison_card",
+                    "badges": [
+                        "SPF 30",
+                        "Pregnancy safe",
+                        "Budget pick"
+                    ]
+                },
+                {
+                    "product_id": "SK1023",
+                    "title": "Oil Control Niacinamide Serum",
+                    "card_variant": "comparison_card",
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe"
+                    ]
+                }
+            ],
+            "rows": [
+                {
+                    "label": "Price",
+                    "values": [
+                        "INR 780",
+                        "INR 350",
+                        "INR 650"
+                    ]
+                },
+                {
+                    "label": "Rating",
+                    "values": [
+                        "4.8",
+                        "4.1",
+                        "4.6"
+                    ]
+                },
+                {
+                    "label": "Key ingredients",
+                    "values": [
+                        "zinc-oxide, titanium-dioxide, silica",
+                        "shea-butter, vitamin-e, uv-filters",
+                        "niacinamide, zinc, panthenol"
+                    ]
+                },
+                {
+                    "label": "Best for",
+                    "values": [
+                        "sun protection, oiliness",
+                        "sun protection, dryness",
+                        "oiliness, pores"
+                    ]
+                },
+                {
+                    "label": "Use",
+                    "values": [
+                        "Morning",
+                        "Morning",
+                        "Night"
+                    ]
+                }
+            ],
+            "render_hints": {
+                "sticky_first_column": true,
+                "compact_on_mobile": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "schema_version": "1.0",
+    "response_type": "ui_components",
+    "request_id": "sample_empty",
+    "generated_at": "2026-05-22T00:00:00+00:00",
+    "query": {
+        "raw": "no matching skincare product",
+        "normalized": "no matching skincare product",
+        "intent": "search",
+        "language": "english"
+    },
+    "detected_context": {
+        "skin_type": null,
+        "user_age": null,
+        "age_group": null,
+        "product_type": null,
+        "skin_concerns": [],
+        "requested_ingredients": [],
+        "avoided_ingredients": [],
+        "safety_flags": {
+            "pregnancy_safe_required": false,
+            "vegan_preference": false,
+            "cruelty_free_preference": false
+        }
+    },
+    "summary": {
+        "component_count": 1,
+        "primary_component_id": "no-results",
+        "safety_severity": null
+    },
+    "components": [
+        {
+            "component_id": "no-results",
+            "component_type": "empty_state",
+            "title": "No exact match found",
+            "priority": 1,
+            "layout": "centered_message",
+            "message": "Showing fallback skincare picks when available."
+        }
+    ]
+}

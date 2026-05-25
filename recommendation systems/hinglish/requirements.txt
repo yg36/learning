@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+transformers
+torch
+sentence-transformers
+sqlite-utils
+torchvision
+streamlit
+indic-transliteration

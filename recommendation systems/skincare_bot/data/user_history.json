@@ -1,0 +1,79 @@
+{
+    "previous_queries": [
+        "tell me serums",
+        "tell me serums to use",
+        "sugggest me some retinols for user 2",
+        "tell me retinols that can be used as age of 10",
+        "tell me retinols to use in age of 20\\",
+        "tell me retinols to use . My current age is 20",
+        "oily skin sunscreen for summer under 800"
+    ],
+    "previous_clicked_product_titles": [
+        "Centella Calming Gel",
+        "Oil Control Niacinamide Serum",
+        "Green Tea Balancing Toner",
+        "Retinol Renewal Night Serum",
+        "Vitamin C Glow Serum",
+        "Hyaluronic Acid Water Gel",
+        "Matte Mineral Sunscreen SPF50",
+        "Lip Barrier Balm SPF30"
+    ],
+    "previous_clicked_tags": [
+        "calming|redness|sensitive|lightweight|centella|madecassoside|green-tea|redness",
+        "oil-control|pores|acne|lightweight|niacinamide|zinc|panthenol|oiliness",
+        "hydration|oil-control|calming|pores|green-tea|betaine|allantoin|oiliness",
+        "anti-aging|fine-lines|night|texture|retinol|niacinamide|peptide|fine lines",
+        "glow|dullness|antioxidant|morning|vitamin-c|ferulic-acid|vitamin-e|dullness",
+        "hydration|lightweight|summer|plump|hyaluronic-acid|glycerin|olive-extract|dryness",
+        "spf|matte|oil-control|outdoor|zinc-oxide|titanium-dioxide|silica|sun protection",
+        "lip-care|spf|barrier|travel|shea-butter|vitamin-e|uv-filters|sun protection"
+    ],
+    "previous_hovered_product_titles": [
+        "Oil Control Niacinamide Serum",
+        "Green Tea Balancing Toner",
+        "Pore Smoothing Clay Mask",
+        "Hyaluronic Acid Water Gel",
+        "Vitamin C Glow Serum",
+        "Matte Mineral Sunscreen SPF50",
+        "Centella Calming Gel",
+        "Lip Barrier Balm SPF30",
+        "Aloe Recovery Mist",
+        "Rice Brightening Face Wash"
+    ],
+    "previous_hovered_tags": [
+        "oil-control|pores|acne|lightweight|niacinamide|zinc|panthenol|oiliness",
+        "hydration|oil-control|calming|pores|green-tea|betaine|allantoin|oiliness",
+        "pores|oil-control|mask|weekly|kaolin|volcanic-ash|green-tea|pores",
+        "hydration|lightweight|summer|plump|hyaluronic-acid|glycerin|olive-extract|dryness",
+        "glow|dullness|antioxidant|morning|vitamin-c|ferulic-acid|vitamin-e|dullness",
+        "spf|matte|oil-control|outdoor|zinc-oxide|titanium-dioxide|silica|sun protection",
+        "calming|redness|sensitive|lightweight|centella|madecassoside|green-tea|redness",
+        "lip-care|spf|barrier|travel|shea-butter|vitamin-e|uv-filters|sun protection",
+        "calming|travel|hydration|summer|aloe|cucumber|green-tea|dehydration",
+        "cleanse|brightening|glow|daily|rice-extract|glycerin|amino-acids|dullness"
+    ],
+    "favorite_ingredients": [
+        "retinol"
+    ],
+    "disliked_ingredients": [],
+    "last_profile": {
+        "skin_type": "oily",
+        "skin_concerns": [
+            "acne",
+            "pores",
+            "oiliness",
+            "dryness",
+            "barrier damage",
+            "dullness",
+            "redness",
+            "sensitivity",
+            "texture",
+            "fine lines",
+            "sun protection"
+        ],
+        "product_type": null,
+        "intent": "recommendation",
+        "updated_at": "2026-05-22T16:02:22"
+    },
+    "updated_at": "2026-05-22T16:02:22"
+}

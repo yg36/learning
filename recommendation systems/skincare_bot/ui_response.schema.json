@@ -1,0 +1,264 @@
+{
+    "$defs": {
+        "UIComponent": {
+            "additionalProperties": true,
+            "properties": {
+                "component_id": {
+                    "title": "Component Id",
+                    "type": "string"
+                },
+                "component_type": {
+                    "title": "Component Type",
+                    "type": "string"
+                },
+                "title": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Title"
+                },
+                "priority": {
+                    "default": 0,
+                    "title": "Priority",
+                    "type": "integer"
+                },
+                "layout": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Layout"
+                }
+            },
+            "required": [
+                "component_id",
+                "component_type"
+            ],
+            "title": "UIComponent",
+            "type": "object"
+        },
+        "UIDetectedContext": {
+            "properties": {
+                "skin_type": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Skin Type"
+                },
+                "user_age": {
+                    "anyOf": [
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "User Age"
+                },
+                "age_group": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Age Group"
+                },
+                "product_type": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Product Type"
+                },
+                "skin_concerns": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "Skin Concerns",
+                    "type": "array"
+                },
+                "requested_ingredients": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "Requested Ingredients",
+                    "type": "array"
+                },
+                "avoided_ingredients": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "Avoided Ingredients",
+                    "type": "array"
+                },
+                "safety_flags": {
+                    "additionalProperties": true,
+                    "title": "Safety Flags",
+                    "type": "object"
+                }
+            },
+            "title": "UIDetectedContext",
+            "type": "object"
+        },
+        "UIQueryMeta": {
+            "properties": {
+                "raw": {
+                    "title": "Raw",
+                    "type": "string"
+                },
+                "normalized": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Normalized"
+                },
+                "intent": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Intent"
+                },
+                "language": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Language"
+                }
+            },
+            "required": [
+                "raw"
+            ],
+            "title": "UIQueryMeta",
+            "type": "object"
+        },
+        "UIResponseSummary": {
+            "properties": {
+                "component_count": {
+                    "title": "Component Count",
+                    "type": "integer"
+                },
+                "primary_component_id": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Primary Component Id"
+                },
+                "safety_severity": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Safety Severity"
+                }
+            },
+            "required": [
+                "component_count"
+            ],
+            "title": "UIResponseSummary",
+            "type": "object"
+        }
+    },
+    "additionalProperties": false,
+    "properties": {
+        "schema_version": {
+            "default": "1.0",
+            "title": "Schema Version",
+            "type": "string"
+        },
+        "response_type": {
+            "default": "ui_components",
+            "title": "Response Type",
+            "type": "string"
+        },
+        "request_id": {
+            "title": "Request Id",
+            "type": "string"
+        },
+        "generated_at": {
+            "title": "Generated At",
+            "type": "string"
+        },
+        "query": {
+            "$ref": "#/$defs/UIQueryMeta"
+        },
+        "detected_context": {
+            "$ref": "#/$defs/UIDetectedContext"
+        },
+        "summary": {
+            "$ref": "#/$defs/UIResponseSummary"
+        },
+        "components": {
+            "items": {
+                "$ref": "#/$defs/UIComponent"
+            },
+            "title": "Components",
+            "type": "array"
+        }
+    },
+    "required": [
+        "request_id",
+        "generated_at",
+        "query",
+        "detected_context",
+        "summary"
+    ],
+    "title": "UIResponse",
+    "type": "object"
+}

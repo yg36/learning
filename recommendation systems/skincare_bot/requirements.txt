@@ -1,0 +1,9 @@
+pandas
+reportlab
+fastapi
+uvicorn
+pydantic
+scikit-learn
+pandera
+pytest
+httpx

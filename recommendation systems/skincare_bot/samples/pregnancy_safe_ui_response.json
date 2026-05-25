@@ -1,0 +1,648 @@
+{
+    "schema_version": "1.0",
+    "response_type": "ui_components",
+    "request_id": "sample_03",
+    "generated_at": "2026-05-22T11:14:05+00:00",
+    "query": {
+        "raw": "pregnancy safe dark spot treatment without retinol",
+        "normalized": "pregnancy safe dark spot treatment without retinol",
+        "intent": "safety_check",
+        "language": "english"
+    },
+    "detected_context": {
+        "skin_type": null,
+        "user_age": null,
+        "age_group": null,
+        "product_type": "treatment",
+        "skin_concerns": [
+            "dark spots"
+        ],
+        "requested_ingredients": [],
+        "avoided_ingredients": [
+            "retinol"
+        ],
+        "safety_flags": {
+            "pregnancy_safe_required": true,
+            "vegan_preference": false,
+            "cruelty_free_preference": false
+        }
+    },
+    "summary": {
+        "component_count": 7,
+        "primary_component_id": "safety-summary",
+        "safety_severity": "caution"
+    },
+    "components": [
+        {
+            "component_id": "safety-summary",
+            "component_type": "safety_banner",
+            "title": "Safety notes",
+            "priority": 1,
+            "layout": "full_width_banner",
+            "severity": "caution",
+            "message": "Pregnancy-safe mode is active: retinoids and salicylic-acid caution products are filtered out where possible.",
+            "items": [
+                "Pregnancy-safe mode is active: retinoids and salicylic-acid caution products are filtered out where possible."
+            ],
+            "render_hints": {
+                "icon": "shield",
+                "tone": "caution",
+                "dismissible": false
+            }
+        },
+        {
+            "component_id": "match_query",
+            "component_type": "hero_product_carousel",
+            "title": "Best Match For This Query",
+            "priority": 2,
+            "layout": "large_card_carousel",
+            "catalog_type": "query_match",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "acid_cream_dark_kojic_spot",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Kojic Acid Dark Spot Cream",
+                    "subtitle": "Deconstruct - Treatment",
+                    "brand": "Deconstruct",
+                    "product_type": "treatment",
+                    "price": 799.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "dark-spots",
+                        "pigmentation",
+                        "brightening",
+                        "night"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Kojic Acid Dark Spot Cream",
+                        "subtitle": "Deconstruct - Treatment",
+                        "price_text": "INR 799",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "kojic-acid",
+                            "alpha-arbutin",
+                            "niacinamide",
+                            "dark spots",
+                            "pigmentation"
+                        ],
+                        "confidence": 0.424,
+                        "score": 393.883
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1008"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_1",
+                        "rank": 1,
+                        "product_id": "SK1008",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "match_query",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "concern_solution",
+            "component_type": "product_carousel",
+            "title": "Concern-Focused Picks",
+            "priority": 3,
+            "layout": "routine_stack",
+            "catalog_type": "concern_solution",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "acid_cream_dark_kojic_spot",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Kojic Acid Dark Spot Cream",
+                    "subtitle": "Deconstruct - Treatment",
+                    "brand": "Deconstruct",
+                    "product_type": "treatment",
+                    "price": 799.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "dark-spots",
+                        "pigmentation",
+                        "brightening",
+                        "night"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Kojic Acid Dark Spot Cream",
+                        "subtitle": "Deconstruct - Treatment",
+                        "price_text": "INR 799",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "kojic-acid",
+                            "alpha-arbutin",
+                            "niacinamide",
+                            "dark spots",
+                            "pigmentation"
+                        ],
+                        "confidence": 0.424,
+                        "score": 393.883
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1008"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "concern_solution",
+                        "slot_id": "concern_solution_1",
+                        "rank": 1,
+                        "product_id": "SK1008",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "concern_solution",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "next_routine_step",
+            "component_type": "routine_product_carousel",
+            "title": "Next Routine Step",
+            "priority": 4,
+            "layout": "step_based_row",
+            "catalog_type": "routine_next_step",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "acid_cream_dark_kojic_spot",
+                    "card_variant": "routine_step_card",
+                    "rank": 1,
+                    "title": "Kojic Acid Dark Spot Cream",
+                    "subtitle": "Deconstruct - Treatment",
+                    "brand": "Deconstruct",
+                    "product_type": "treatment",
+                    "price": 799.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "dark-spots",
+                        "pigmentation",
+                        "brightening",
+                        "night"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Kojic Acid Dark Spot Cream",
+                        "subtitle": "Deconstruct - Treatment",
+                        "price_text": "INR 799",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "kojic-acid",
+                            "alpha-arbutin",
+                            "niacinamide",
+                            "dark spots",
+                            "pigmentation"
+                        ],
+                        "confidence": 0.424,
+                        "score": 393.883
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1008"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_1",
+                        "rank": 1,
+                        "product_id": "SK1008",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "next_routine_step",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "budget_friendly",
+            "component_type": "budget_product_carousel",
+            "title": "Budget-Friendly Options",
+            "priority": 5,
+            "layout": "routine_stack",
+            "catalog_type": "budget_friendly",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "acid_cream_dark_kojic_spot",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Kojic Acid Dark Spot Cream",
+                    "subtitle": "Deconstruct - Treatment",
+                    "brand": "Deconstruct",
+                    "product_type": "treatment",
+                    "price": 799.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "dark-spots",
+                        "pigmentation",
+                        "brightening",
+                        "night"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Kojic Acid Dark Spot Cream",
+                        "subtitle": "Deconstruct - Treatment",
+                        "price_text": "INR 799",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "kojic-acid",
+                            "alpha-arbutin",
+                            "niacinamide",
+                            "dark spots",
+                            "pigmentation"
+                        ],
+                        "confidence": 0.424,
+                        "score": 393.883
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1008"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "budget_friendly",
+                        "slot_id": "budget_friendly_1",
+                        "rank": 1,
+                        "product_id": "SK1008",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "budget_friendly",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "trending",
+            "component_type": "product_carousel",
+            "title": "Trending Skincare Picks",
+            "priority": 6,
+            "layout": "routine_stack",
+            "catalog_type": "trending",
+            "theme": "premium",
+            "cards": [
+                {
+                    "card_id": "acid_cream_dark_kojic_spot",
+                    "card_variant": "budget_card",
+                    "rank": 1,
+                    "title": "Kojic Acid Dark Spot Cream",
+                    "subtitle": "Deconstruct - Treatment",
+                    "brand": "Deconstruct",
+                    "product_type": "treatment",
+                    "price": 799.0,
+                    "rating": 4.7,
+                    "primary_tags": [
+                        "dark-spots",
+                        "pigmentation",
+                        "brightening",
+                        "night"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Kojic Acid Dark Spot Cream",
+                        "subtitle": "Deconstruct - Treatment",
+                        "price_text": "INR 799",
+                        "rating_text": "4.7 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "kojic-acid",
+                            "alpha-arbutin",
+                            "niacinamide",
+                            "dark spots",
+                            "pigmentation"
+                        ],
+                        "confidence": 0.424,
+                        "score": 393.883
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1008"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_1",
+                        "rank": 1,
+                        "product_id": "SK1008",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "trending",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "routine-timeline",
+            "component_type": "routine_timeline",
+            "title": "Suggested routine",
+            "priority": 7,
+            "layout": "two_lane_timeline",
+            "sections": [
+                {
+                    "title": "Morning",
+                    "steps": [
+                        {
+                            "step_id": "morning_1",
+                            "step": "cleanse",
+                            "label": "Cleanser",
+                            "title": "Rice Brightening Face Wash",
+                            "product_type": "cleanser",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_2",
+                            "step": "tone",
+                            "label": "Toner",
+                            "title": "Green Tea Balancing Toner",
+                            "product_type": "toner",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_3",
+                            "step": "treat",
+                            "label": "Serum/Treatment",
+                            "title": "Vitamin C Glow Serum",
+                            "product_type": "serum",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_4",
+                            "step": "moisturize",
+                            "label": "Moisturizer",
+                            "title": "Hyaluronic Acid Water Gel",
+                            "product_type": "moisturizer",
+                            "why": "Supports the barrier and reduces irritation risk."
+                        },
+                        {
+                            "step_id": "morning_5",
+                            "step": "protect",
+                            "label": "Sunscreen",
+                            "title": "Daily Invisible Sunscreen SPF50",
+                            "product_type": "sunscreen",
+                            "why": "Protects the routine with SPF."
+                        }
+                    ]
+                },
+                {
+                    "title": "Night",
+                    "steps": [
+                        {
+                            "step_id": "night_1",
+                            "step": "cleanse",
+                            "label": "Cleanser",
+                            "title": "Rice Brightening Face Wash",
+                            "product_type": "cleanser",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_2",
+                            "step": "tone",
+                            "label": "Toner",
+                            "title": "Green Tea Balancing Toner",
+                            "product_type": "toner",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_3",
+                            "step": "treat",
+                            "label": "Treatment",
+                            "title": "Kojic Acid Dark Spot Cream",
+                            "product_type": "treatment",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_4",
+                            "step": "moisturize",
+                            "label": "Moisturizer",
+                            "title": "Hyaluronic Acid Water Gel",
+                            "product_type": "moisturizer",
+                            "why": "Supports the barrier and reduces irritation risk."
+                        },
+                        {
+                            "step_id": "night_5",
+                            "step": "seal",
+                            "label": "Face Oil/Seal",
+                            "title": "Squalane Nourishing Face Oil",
+                            "product_type": "face oil",
+                            "why": "Fits the routine step and current recommendation context."
+                        }
+                    ]
+                }
+            ],
+            "notes": [],
+            "render_hints": {
+                "show_step_numbers": true,
+                "group_by_period": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,3944 @@
+{
+    "profile": {
+        "semantic_category": "skincare",
+        "preferred_category": "skincare",
+        "query": "tell me retinols to use . My current age is 20",
+        "normalized_query": "tell me retinols to use . my current age is 20",
+        "intent": "recommendation",
+        "query_language": "english",
+        "intent_model": "hybrid_catalog_retrieval_intent_v2",
+        "product_type": "serum",
+        "time_of_day": "morning",
+        "weather": "normal",
+        "skin_type": "oily",
+        "user_age": 20,
+        "age_group": "young_adult",
+        "skin_concerns": [],
+        "requested_ingredients": [
+            "retinol"
+        ],
+        "avoided_ingredients": [],
+        "active_strength_preference": "beginner",
+        "active_safety_notes": [
+            "Use retinol at night and pair it with daily sunscreen.",
+            "Start slowly and avoid combining it with strong exfoliating acids in the same routine.",
+            "At this age, prefer beginner-strength retinol only if there is a clear concern."
+        ],
+        "budget_min": null,
+        "budget_max": null,
+        "pregnancy_safe_required": false,
+        "vegan_preference": false,
+        "cruelty_free_preference": false,
+        "previous_queries": [
+            "tell me serums",
+            "tell me serums to use",
+            "sugggest me some retinols for user 2",
+            "tell me retinols that can be used as age of 10",
+            "tell me retinols to use in age of 20",
+            "tell me retinols to use . my current age is 20",
+            "oily skin sunscreen for summer under 800"
+        ],
+        "previous_hovered_product_titles": [
+            "oil control niacinamide serum",
+            "green tea balancing toner",
+            "pore smoothing clay mask",
+            "hyaluronic acid water gel",
+            "vitamin c glow serum",
+            "matte mineral sunscreen spf50",
+            "centella calming gel",
+            "lip barrier balm spf30",
+            "aloe recovery mist",
+            "rice brightening face wash"
+        ],
+        "previous_hovered_tags": [
+            "oil-control pores acne lightweight niacinamide zinc panthenol oiliness",
+            "hydration oil-control calming pores green-tea betaine allantoin oiliness",
+            "pores oil-control mask weekly kaolin volcanic-ash green-tea pores",
+            "hydration lightweight summer plump hyaluronic-acid glycerin olive-extract dryness",
+            "glow dullness antioxidant morning vitamin-c ferulic-acid vitamin-e dullness",
+            "spf matte oil-control outdoor zinc-oxide titanium-dioxide silica sun protection",
+            "calming redness sensitive lightweight centella madecassoside green-tea redness",
+            "lip-care spf barrier travel shea-butter vitamin-e uv-filters sun protection",
+            "calming travel hydration summer aloe cucumber green-tea dehydration",
+            "cleanse brightening glow daily rice-extract glycerin amino-acids dullness"
+        ],
+        "previous_clicked_product_titles": [
+            "centella calming gel",
+            "oil control niacinamide serum",
+            "green tea balancing toner",
+            "retinol renewal night serum",
+            "vitamin c glow serum",
+            "hyaluronic acid water gel",
+            "matte mineral sunscreen spf50",
+            "lip barrier balm spf30"
+        ],
+        "previous_clicked_tags": [
+            "calming redness sensitive lightweight centella madecassoside green-tea redness",
+            "oil-control pores acne lightweight niacinamide zinc panthenol oiliness",
+            "hydration oil-control calming pores green-tea betaine allantoin oiliness",
+            "anti-aging fine-lines night texture retinol niacinamide peptide fine lines",
+            "glow dullness antioxidant morning vitamin-c ferulic-acid vitamin-e dullness",
+            "hydration lightweight summer plump hyaluronic-acid glycerin olive-extract dryness",
+            "spf matte oil-control outdoor zinc-oxide titanium-dioxide silica sun protection",
+            "lip-care spf barrier travel shea-butter vitamin-e uv-filters sun protection"
+        ],
+        "favorite_ingredients": [
+            "retinol"
+        ],
+        "disliked_ingredients": [],
+        "matched_catalog_product": "Retinol Renewal Night Serum",
+        "confidence_scores": {
+            "product_type": 0.315,
+            "catalog_match": 0.315,
+            "concerns": 0,
+            "ingredients": 0.55
+        }
+    },
+    "catalogs": [
+        {
+            "catalog_title": "Best Match For This Query",
+            "catalog_type": "query_match",
+            "score": 417.126,
+            "products": [
+                {
+                    "title": "Retinol Renewal Night Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture",
+                        "retinol",
+                        "niacinamide",
+                        "peptide",
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "ingredients": [
+                        "retinol",
+                        "niacinamide",
+                        "peptide"
+                    ],
+                    "recommendation_reason": "Directly matches the product intent detected from your query.",
+                    "product_id": "SK1055",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 391.364,
+                    "price_tier": "premium",
+                    "discount_percentage": 4.0,
+                    "review_count": 1976,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1055",
+                    "target_concerns": [
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "dry",
+                        "combination"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "silky serum",
+                    "finish": "smooth",
+                    "active_strength_level": "advanced",
+                    "recommended_frequency": "2-3 nights/week",
+                    "minimum_recommended_age": 20,
+                    "max_usage_per_week": 3,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": false,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": false,
+                        "vegan": false,
+                        "cruelty_free": false
+                    },
+                    "scores": {
+                        "overall": 391.364,
+                        "recommendation": 0.671,
+                        "personalization": 0.505,
+                        "history_affinity": 0.67,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.206,
+                        "ingredient_affinity": 0.422,
+                        "semantic_similarity": 0.4385
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "clean",
+                        "rank_position": 10
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": true,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 98,
+                        "hover_time_seconds": 13,
+                        "scroll_depth": 51,
+                        "dwell_time_seconds": 163,
+                        "feedback_rating": 5.0,
+                        "conversion": true,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "rice extract for pores",
+                            "combination skin serum",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel",
+                            "gentle oat cleanser",
+                            "vitamin c glow serum",
+                            "centella calming gel"
+                        ],
+                        "previous_clicked_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel"
+                        ],
+                        "previous_clicked_tags": [
+                            "barrier",
+                            "centella",
+                            "ceramide",
+                            "glycerin",
+                            "hyaluronic-acid",
+                            "hydration",
+                            "lightweight",
+                            "olive-extract",
+                            "plump",
+                            "redness",
+                            "repair",
+                            "sleeping-mask",
+                            "squalane",
+                            "summer"
+                        ],
+                        "last_interaction_type": "cart"
+                    },
+                    "next_best_action": "save for later",
+                    "safety_guidance": {
+                        "guidance": [
+                            "Use at night only.",
+                            "Follow with moisturizer and use sunscreen the next morning."
+                        ],
+                        "warnings": [
+                            "Avoid combining with AHA/BHA exfoliants in the same routine.",
+                            "Beginner-strength use is preferred for this age profile.",
+                            "Not marked pregnancy-safe."
+                        ],
+                        "patch_test_recommended": true
+                    }
+                },
+                {
+                    "title": "Oil Control Niacinamide Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight",
+                        "niacinamide",
+                        "zinc",
+                        "panthenol",
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "ingredients": [
+                        "niacinamide",
+                        "zinc",
+                        "panthenol"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1023",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 312.759,
+                    "price_tier": "mid",
+                    "discount_percentage": 0.0,
+                    "review_count": 5062,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1023",
+                    "target_concerns": [
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "suitable_skin_types": [
+                        "oily",
+                        "combination",
+                        "normal"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "water serum",
+                    "finish": "matte",
+                    "active_strength_level": "beginner",
+                    "recommended_frequency": "daily",
+                    "minimum_recommended_age": 13,
+                    "max_usage_per_week": 14,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 312.759,
+                        "recommendation": 0.809,
+                        "personalization": 0.729,
+                        "history_affinity": 0.902,
+                        "query_match": 0.38,
+                        "concern_affinity": 0.815,
+                        "ingredient_affinity": 0.411,
+                        "semantic_similarity": 0.0691
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "minimal",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": false,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 181,
+                        "hover_time_seconds": 26,
+                        "scroll_depth": 67,
+                        "dwell_time_seconds": 239,
+                        "feedback_rating": null,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "salicylic acid for acne",
+                            "oily skin cleanser",
+                            "skincare for acne"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask",
+                            "retinol renewal night serum",
+                            "oil control niacinamide serum"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "barrier",
+                            "calming",
+                            "cleanse",
+                            "cucumber",
+                            "gentle",
+                            "glycerin",
+                            "green-tea",
+                            "hydration",
+                            "kaolin",
+                            "mask",
+                            "oat",
+                            "oil-control",
+                            "panthenol",
+                            "pores",
+                            "sensitive",
+                            "summer",
+                            "travel",
+                            "volcanic-ash",
+                            "weekly"
+                        ],
+                        "last_interaction_type": "click"
+                    },
+                    "next_best_action": "offer discount",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                },
+                {
+                    "title": "Vitamin C Glow Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning",
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e",
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "ingredients": [
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1045",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 307.254,
+                    "price_tier": "mid",
+                    "discount_percentage": 14.0,
+                    "review_count": 5927,
+                    "inventory_status": "Low Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1045",
+                    "target_concerns": [
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "oily",
+                        "combination",
+                        "dry"
+                    ],
+                    "usage_time": "morning",
+                    "routine_step": "treat",
+                    "texture": "lightweight serum",
+                    "finish": "natural glow",
+                    "active_strength_level": "intermediate",
+                    "recommended_frequency": "daily morning",
+                    "minimum_recommended_age": 18,
+                    "max_usage_per_week": 7,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": true,
+                        "pm_fit": false,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": false,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 307.254,
+                        "recommendation": 0.731,
+                        "personalization": 0.646,
+                        "history_affinity": 0.792,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.562,
+                        "ingredient_affinity": 0.459,
+                        "semantic_similarity": 0.0575
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "list",
+                        "theme": "clean",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 85,
+                        "hover_time_seconds": 30,
+                        "scroll_depth": 20,
+                        "dwell_time_seconds": 99,
+                        "feedback_rating": 2.0,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "vitamin c for dullness",
+                            "combination skin moisturizer",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "hyaluronic acid water gel",
+                            "matte mineral sunscreen spf50",
+                            "daily invisible sunscreen spf50"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "calming",
+                            "cucumber",
+                            "green-tea",
+                            "hydration",
+                            "summer",
+                            "travel"
+                        ],
+                        "last_interaction_type": "hover"
+                    },
+                    "next_best_action": "compare similar products",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                }
+            ],
+            "theme": "clean",
+            "layout": "comparison",
+            "total_products": 3
+        },
+        {
+            "catalog_title": "Because Of Your Recent Skincare History",
+            "catalog_type": "history_match",
+            "score": 397.126,
+            "products": [
+                {
+                    "title": "Retinol Renewal Night Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture",
+                        "retinol",
+                        "niacinamide",
+                        "peptide",
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "ingredients": [
+                        "retinol",
+                        "niacinamide",
+                        "peptide"
+                    ],
+                    "recommendation_reason": "Directly matches the product intent detected from your query.",
+                    "product_id": "SK1055",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 391.364,
+                    "price_tier": "premium",
+                    "discount_percentage": 4.0,
+                    "review_count": 1976,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1055",
+                    "target_concerns": [
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "dry",
+                        "combination"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "silky serum",
+                    "finish": "smooth",
+                    "active_strength_level": "advanced",
+                    "recommended_frequency": "2-3 nights/week",
+                    "minimum_recommended_age": 20,
+                    "max_usage_per_week": 3,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": false,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": false,
+                        "vegan": false,
+                        "cruelty_free": false
+                    },
+                    "scores": {
+                        "overall": 391.364,
+                        "recommendation": 0.671,
+                        "personalization": 0.505,
+                        "history_affinity": 0.67,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.206,
+                        "ingredient_affinity": 0.422,
+                        "semantic_similarity": 0.4385
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "clean",
+                        "rank_position": 10
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": true,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 98,
+                        "hover_time_seconds": 13,
+                        "scroll_depth": 51,
+                        "dwell_time_seconds": 163,
+                        "feedback_rating": 5.0,
+                        "conversion": true,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "rice extract for pores",
+                            "combination skin serum",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel",
+                            "gentle oat cleanser",
+                            "vitamin c glow serum",
+                            "centella calming gel"
+                        ],
+                        "previous_clicked_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel"
+                        ],
+                        "previous_clicked_tags": [
+                            "barrier",
+                            "centella",
+                            "ceramide",
+                            "glycerin",
+                            "hyaluronic-acid",
+                            "hydration",
+                            "lightweight",
+                            "olive-extract",
+                            "plump",
+                            "redness",
+                            "repair",
+                            "sleeping-mask",
+                            "squalane",
+                            "summer"
+                        ],
+                        "last_interaction_type": "cart"
+                    },
+                    "next_best_action": "save for later",
+                    "safety_guidance": {
+                        "guidance": [
+                            "Use at night only.",
+                            "Follow with moisturizer and use sunscreen the next morning."
+                        ],
+                        "warnings": [
+                            "Avoid combining with AHA/BHA exfoliants in the same routine.",
+                            "Beginner-strength use is preferred for this age profile.",
+                            "Not marked pregnancy-safe."
+                        ],
+                        "patch_test_recommended": true
+                    }
+                },
+                {
+                    "title": "Oil Control Niacinamide Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight",
+                        "niacinamide",
+                        "zinc",
+                        "panthenol",
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "ingredients": [
+                        "niacinamide",
+                        "zinc",
+                        "panthenol"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1023",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 312.759,
+                    "price_tier": "mid",
+                    "discount_percentage": 0.0,
+                    "review_count": 5062,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1023",
+                    "target_concerns": [
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "suitable_skin_types": [
+                        "oily",
+                        "combination",
+                        "normal"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "water serum",
+                    "finish": "matte",
+                    "active_strength_level": "beginner",
+                    "recommended_frequency": "daily",
+                    "minimum_recommended_age": 13,
+                    "max_usage_per_week": 14,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 312.759,
+                        "recommendation": 0.809,
+                        "personalization": 0.729,
+                        "history_affinity": 0.902,
+                        "query_match": 0.38,
+                        "concern_affinity": 0.815,
+                        "ingredient_affinity": 0.411,
+                        "semantic_similarity": 0.0691
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "minimal",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": false,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 181,
+                        "hover_time_seconds": 26,
+                        "scroll_depth": 67,
+                        "dwell_time_seconds": 239,
+                        "feedback_rating": null,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "salicylic acid for acne",
+                            "oily skin cleanser",
+                            "skincare for acne"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask",
+                            "retinol renewal night serum",
+                            "oil control niacinamide serum"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "barrier",
+                            "calming",
+                            "cleanse",
+                            "cucumber",
+                            "gentle",
+                            "glycerin",
+                            "green-tea",
+                            "hydration",
+                            "kaolin",
+                            "mask",
+                            "oat",
+                            "oil-control",
+                            "panthenol",
+                            "pores",
+                            "sensitive",
+                            "summer",
+                            "travel",
+                            "volcanic-ash",
+                            "weekly"
+                        ],
+                        "last_interaction_type": "click"
+                    },
+                    "next_best_action": "offer discount",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                },
+                {
+                    "title": "Vitamin C Glow Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning",
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e",
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "ingredients": [
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1045",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 307.254,
+                    "price_tier": "mid",
+                    "discount_percentage": 14.0,
+                    "review_count": 5927,
+                    "inventory_status": "Low Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1045",
+                    "target_concerns": [
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "oily",
+                        "combination",
+                        "dry"
+                    ],
+                    "usage_time": "morning",
+                    "routine_step": "treat",
+                    "texture": "lightweight serum",
+                    "finish": "natural glow",
+                    "active_strength_level": "intermediate",
+                    "recommended_frequency": "daily morning",
+                    "minimum_recommended_age": 18,
+                    "max_usage_per_week": 7,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": true,
+                        "pm_fit": false,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": false,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 307.254,
+                        "recommendation": 0.731,
+                        "personalization": 0.646,
+                        "history_affinity": 0.792,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.562,
+                        "ingredient_affinity": 0.459,
+                        "semantic_similarity": 0.0575
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "list",
+                        "theme": "clean",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 85,
+                        "hover_time_seconds": 30,
+                        "scroll_depth": 20,
+                        "dwell_time_seconds": 99,
+                        "feedback_rating": 2.0,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "vitamin c for dullness",
+                            "combination skin moisturizer",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "hyaluronic acid water gel",
+                            "matte mineral sunscreen spf50",
+                            "daily invisible sunscreen spf50"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "calming",
+                            "cucumber",
+                            "green-tea",
+                            "hydration",
+                            "summer",
+                            "travel"
+                        ],
+                        "last_interaction_type": "hover"
+                    },
+                    "next_best_action": "compare similar products",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                }
+            ],
+            "theme": "clean",
+            "layout": "comparison",
+            "total_products": 3
+        },
+        {
+            "catalog_title": "Next Routine Step",
+            "catalog_type": "routine_next_step",
+            "score": 337.126,
+            "products": [
+                {
+                    "title": "Retinol Renewal Night Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture",
+                        "retinol",
+                        "niacinamide",
+                        "peptide",
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "ingredients": [
+                        "retinol",
+                        "niacinamide",
+                        "peptide"
+                    ],
+                    "recommendation_reason": "Directly matches the product intent detected from your query.",
+                    "product_id": "SK1055",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 391.364,
+                    "price_tier": "premium",
+                    "discount_percentage": 4.0,
+                    "review_count": 1976,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1055",
+                    "target_concerns": [
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "dry",
+                        "combination"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "silky serum",
+                    "finish": "smooth",
+                    "active_strength_level": "advanced",
+                    "recommended_frequency": "2-3 nights/week",
+                    "minimum_recommended_age": 20,
+                    "max_usage_per_week": 3,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": false,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": false,
+                        "vegan": false,
+                        "cruelty_free": false
+                    },
+                    "scores": {
+                        "overall": 391.364,
+                        "recommendation": 0.671,
+                        "personalization": 0.505,
+                        "history_affinity": 0.67,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.206,
+                        "ingredient_affinity": 0.422,
+                        "semantic_similarity": 0.4385
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "clean",
+                        "rank_position": 10
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": true,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 98,
+                        "hover_time_seconds": 13,
+                        "scroll_depth": 51,
+                        "dwell_time_seconds": 163,
+                        "feedback_rating": 5.0,
+                        "conversion": true,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "rice extract for pores",
+                            "combination skin serum",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel",
+                            "gentle oat cleanser",
+                            "vitamin c glow serum",
+                            "centella calming gel"
+                        ],
+                        "previous_clicked_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel"
+                        ],
+                        "previous_clicked_tags": [
+                            "barrier",
+                            "centella",
+                            "ceramide",
+                            "glycerin",
+                            "hyaluronic-acid",
+                            "hydration",
+                            "lightweight",
+                            "olive-extract",
+                            "plump",
+                            "redness",
+                            "repair",
+                            "sleeping-mask",
+                            "squalane",
+                            "summer"
+                        ],
+                        "last_interaction_type": "cart"
+                    },
+                    "next_best_action": "save for later",
+                    "safety_guidance": {
+                        "guidance": [
+                            "Use at night only.",
+                            "Follow with moisturizer and use sunscreen the next morning."
+                        ],
+                        "warnings": [
+                            "Avoid combining with AHA/BHA exfoliants in the same routine.",
+                            "Beginner-strength use is preferred for this age profile.",
+                            "Not marked pregnancy-safe."
+                        ],
+                        "patch_test_recommended": true
+                    }
+                },
+                {
+                    "title": "Oil Control Niacinamide Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight",
+                        "niacinamide",
+                        "zinc",
+                        "panthenol",
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "ingredients": [
+                        "niacinamide",
+                        "zinc",
+                        "panthenol"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1023",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 312.759,
+                    "price_tier": "mid",
+                    "discount_percentage": 0.0,
+                    "review_count": 5062,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1023",
+                    "target_concerns": [
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "suitable_skin_types": [
+                        "oily",
+                        "combination",
+                        "normal"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "water serum",
+                    "finish": "matte",
+                    "active_strength_level": "beginner",
+                    "recommended_frequency": "daily",
+                    "minimum_recommended_age": 13,
+                    "max_usage_per_week": 14,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 312.759,
+                        "recommendation": 0.809,
+                        "personalization": 0.729,
+                        "history_affinity": 0.902,
+                        "query_match": 0.38,
+                        "concern_affinity": 0.815,
+                        "ingredient_affinity": 0.411,
+                        "semantic_similarity": 0.0691
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "minimal",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": false,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 181,
+                        "hover_time_seconds": 26,
+                        "scroll_depth": 67,
+                        "dwell_time_seconds": 239,
+                        "feedback_rating": null,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "salicylic acid for acne",
+                            "oily skin cleanser",
+                            "skincare for acne"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask",
+                            "retinol renewal night serum",
+                            "oil control niacinamide serum"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "barrier",
+                            "calming",
+                            "cleanse",
+                            "cucumber",
+                            "gentle",
+                            "glycerin",
+                            "green-tea",
+                            "hydration",
+                            "kaolin",
+                            "mask",
+                            "oat",
+                            "oil-control",
+                            "panthenol",
+                            "pores",
+                            "sensitive",
+                            "summer",
+                            "travel",
+                            "volcanic-ash",
+                            "weekly"
+                        ],
+                        "last_interaction_type": "click"
+                    },
+                    "next_best_action": "offer discount",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                },
+                {
+                    "title": "Vitamin C Glow Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning",
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e",
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "ingredients": [
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1045",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 307.254,
+                    "price_tier": "mid",
+                    "discount_percentage": 14.0,
+                    "review_count": 5927,
+                    "inventory_status": "Low Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1045",
+                    "target_concerns": [
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "oily",
+                        "combination",
+                        "dry"
+                    ],
+                    "usage_time": "morning",
+                    "routine_step": "treat",
+                    "texture": "lightweight serum",
+                    "finish": "natural glow",
+                    "active_strength_level": "intermediate",
+                    "recommended_frequency": "daily morning",
+                    "minimum_recommended_age": 18,
+                    "max_usage_per_week": 7,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": true,
+                        "pm_fit": false,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": false,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 307.254,
+                        "recommendation": 0.731,
+                        "personalization": 0.646,
+                        "history_affinity": 0.792,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.562,
+                        "ingredient_affinity": 0.459,
+                        "semantic_similarity": 0.0575
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "list",
+                        "theme": "clean",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 85,
+                        "hover_time_seconds": 30,
+                        "scroll_depth": 20,
+                        "dwell_time_seconds": 99,
+                        "feedback_rating": 2.0,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "vitamin c for dullness",
+                            "combination skin moisturizer",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "hyaluronic acid water gel",
+                            "matte mineral sunscreen spf50",
+                            "daily invisible sunscreen spf50"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "calming",
+                            "cucumber",
+                            "green-tea",
+                            "hydration",
+                            "summer",
+                            "travel"
+                        ],
+                        "last_interaction_type": "hover"
+                    },
+                    "next_best_action": "compare similar products",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                }
+            ],
+            "theme": "clean",
+            "layout": "comparison",
+            "total_products": 3
+        },
+        {
+            "catalog_title": "Trending Skincare Picks",
+            "catalog_type": "trending",
+            "score": 337.126,
+            "products": [
+                {
+                    "title": "Retinol Renewal Night Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture",
+                        "retinol",
+                        "niacinamide",
+                        "peptide",
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "ingredients": [
+                        "retinol",
+                        "niacinamide",
+                        "peptide"
+                    ],
+                    "recommendation_reason": "Directly matches the product intent detected from your query.",
+                    "product_id": "SK1055",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 391.364,
+                    "price_tier": "premium",
+                    "discount_percentage": 4.0,
+                    "review_count": 1976,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1055",
+                    "target_concerns": [
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "dry",
+                        "combination"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "silky serum",
+                    "finish": "smooth",
+                    "active_strength_level": "advanced",
+                    "recommended_frequency": "2-3 nights/week",
+                    "minimum_recommended_age": 20,
+                    "max_usage_per_week": 3,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": false,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": false,
+                        "vegan": false,
+                        "cruelty_free": false
+                    },
+                    "scores": {
+                        "overall": 391.364,
+                        "recommendation": 0.671,
+                        "personalization": 0.505,
+                        "history_affinity": 0.67,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.206,
+                        "ingredient_affinity": 0.422,
+                        "semantic_similarity": 0.4385
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "clean",
+                        "rank_position": 10
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": true,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 98,
+                        "hover_time_seconds": 13,
+                        "scroll_depth": 51,
+                        "dwell_time_seconds": 163,
+                        "feedback_rating": 5.0,
+                        "conversion": true,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "rice extract for pores",
+                            "combination skin serum",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel",
+                            "gentle oat cleanser",
+                            "vitamin c glow serum",
+                            "centella calming gel"
+                        ],
+                        "previous_clicked_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel"
+                        ],
+                        "previous_clicked_tags": [
+                            "barrier",
+                            "centella",
+                            "ceramide",
+                            "glycerin",
+                            "hyaluronic-acid",
+                            "hydration",
+                            "lightweight",
+                            "olive-extract",
+                            "plump",
+                            "redness",
+                            "repair",
+                            "sleeping-mask",
+                            "squalane",
+                            "summer"
+                        ],
+                        "last_interaction_type": "cart"
+                    },
+                    "next_best_action": "save for later",
+                    "safety_guidance": {
+                        "guidance": [
+                            "Use at night only.",
+                            "Follow with moisturizer and use sunscreen the next morning."
+                        ],
+                        "warnings": [
+                            "Avoid combining with AHA/BHA exfoliants in the same routine.",
+                            "Beginner-strength use is preferred for this age profile.",
+                            "Not marked pregnancy-safe."
+                        ],
+                        "patch_test_recommended": true
+                    }
+                },
+                {
+                    "title": "Oil Control Niacinamide Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight",
+                        "niacinamide",
+                        "zinc",
+                        "panthenol",
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "ingredients": [
+                        "niacinamide",
+                        "zinc",
+                        "panthenol"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1023",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 312.759,
+                    "price_tier": "mid",
+                    "discount_percentage": 0.0,
+                    "review_count": 5062,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1023",
+                    "target_concerns": [
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "suitable_skin_types": [
+                        "oily",
+                        "combination",
+                        "normal"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "water serum",
+                    "finish": "matte",
+                    "active_strength_level": "beginner",
+                    "recommended_frequency": "daily",
+                    "minimum_recommended_age": 13,
+                    "max_usage_per_week": 14,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 312.759,
+                        "recommendation": 0.809,
+                        "personalization": 0.729,
+                        "history_affinity": 0.902,
+                        "query_match": 0.38,
+                        "concern_affinity": 0.815,
+                        "ingredient_affinity": 0.411,
+                        "semantic_similarity": 0.0691
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "minimal",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": false,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 181,
+                        "hover_time_seconds": 26,
+                        "scroll_depth": 67,
+                        "dwell_time_seconds": 239,
+                        "feedback_rating": null,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "salicylic acid for acne",
+                            "oily skin cleanser",
+                            "skincare for acne"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask",
+                            "retinol renewal night serum",
+                            "oil control niacinamide serum"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "barrier",
+                            "calming",
+                            "cleanse",
+                            "cucumber",
+                            "gentle",
+                            "glycerin",
+                            "green-tea",
+                            "hydration",
+                            "kaolin",
+                            "mask",
+                            "oat",
+                            "oil-control",
+                            "panthenol",
+                            "pores",
+                            "sensitive",
+                            "summer",
+                            "travel",
+                            "volcanic-ash",
+                            "weekly"
+                        ],
+                        "last_interaction_type": "click"
+                    },
+                    "next_best_action": "offer discount",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                },
+                {
+                    "title": "Vitamin C Glow Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning",
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e",
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "ingredients": [
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1045",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 307.254,
+                    "price_tier": "mid",
+                    "discount_percentage": 14.0,
+                    "review_count": 5927,
+                    "inventory_status": "Low Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1045",
+                    "target_concerns": [
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "oily",
+                        "combination",
+                        "dry"
+                    ],
+                    "usage_time": "morning",
+                    "routine_step": "treat",
+                    "texture": "lightweight serum",
+                    "finish": "natural glow",
+                    "active_strength_level": "intermediate",
+                    "recommended_frequency": "daily morning",
+                    "minimum_recommended_age": 18,
+                    "max_usage_per_week": 7,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": true,
+                        "pm_fit": false,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": false,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 307.254,
+                        "recommendation": 0.731,
+                        "personalization": 0.646,
+                        "history_affinity": 0.792,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.562,
+                        "ingredient_affinity": 0.459,
+                        "semantic_similarity": 0.0575
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "list",
+                        "theme": "clean",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 85,
+                        "hover_time_seconds": 30,
+                        "scroll_depth": 20,
+                        "dwell_time_seconds": 99,
+                        "feedback_rating": 2.0,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "vitamin c for dullness",
+                            "combination skin moisturizer",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "hyaluronic acid water gel",
+                            "matte mineral sunscreen spf50",
+                            "daily invisible sunscreen spf50"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "calming",
+                            "cucumber",
+                            "green-tea",
+                            "hydration",
+                            "summer",
+                            "travel"
+                        ],
+                        "last_interaction_type": "hover"
+                    },
+                    "next_best_action": "compare similar products",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                }
+            ],
+            "theme": "clean",
+            "layout": "comparison",
+            "total_products": 3
+        },
+        {
+            "catalog_title": "Beginner-Safe Skincare",
+            "catalog_type": "beginner_safe",
+            "score": 337.126,
+            "products": [
+                {
+                    "title": "Retinol Renewal Night Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture",
+                        "retinol",
+                        "niacinamide",
+                        "peptide",
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "ingredients": [
+                        "retinol",
+                        "niacinamide",
+                        "peptide"
+                    ],
+                    "recommendation_reason": "Directly matches the product intent detected from your query.",
+                    "product_id": "SK1055",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 391.364,
+                    "price_tier": "premium",
+                    "discount_percentage": 4.0,
+                    "review_count": 1976,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1055",
+                    "target_concerns": [
+                        "fine lines",
+                        "texture",
+                        "photoaging"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "dry",
+                        "combination"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "silky serum",
+                    "finish": "smooth",
+                    "active_strength_level": "advanced",
+                    "recommended_frequency": "2-3 nights/week",
+                    "minimum_recommended_age": 20,
+                    "max_usage_per_week": 3,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": false,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": false,
+                        "vegan": false,
+                        "cruelty_free": false
+                    },
+                    "scores": {
+                        "overall": 391.364,
+                        "recommendation": 0.671,
+                        "personalization": 0.505,
+                        "history_affinity": 0.67,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.206,
+                        "ingredient_affinity": 0.422,
+                        "semantic_similarity": 0.4385
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "clean",
+                        "rank_position": 10
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": true,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 98,
+                        "hover_time_seconds": 13,
+                        "scroll_depth": 51,
+                        "dwell_time_seconds": 163,
+                        "feedback_rating": 5.0,
+                        "conversion": true,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "rice extract for pores",
+                            "combination skin serum",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel",
+                            "gentle oat cleanser",
+                            "vitamin c glow serum",
+                            "centella calming gel"
+                        ],
+                        "previous_clicked_titles": [
+                            "cica barrier sleeping mask",
+                            "hyaluronic acid water gel"
+                        ],
+                        "previous_clicked_tags": [
+                            "barrier",
+                            "centella",
+                            "ceramide",
+                            "glycerin",
+                            "hyaluronic-acid",
+                            "hydration",
+                            "lightweight",
+                            "olive-extract",
+                            "plump",
+                            "redness",
+                            "repair",
+                            "sleeping-mask",
+                            "squalane",
+                            "summer"
+                        ],
+                        "last_interaction_type": "cart"
+                    },
+                    "next_best_action": "save for later",
+                    "safety_guidance": {
+                        "guidance": [
+                            "Use at night only.",
+                            "Follow with moisturizer and use sunscreen the next morning."
+                        ],
+                        "warnings": [
+                            "Avoid combining with AHA/BHA exfoliants in the same routine.",
+                            "Beginner-strength use is preferred for this age profile.",
+                            "Not marked pregnancy-safe."
+                        ],
+                        "patch_test_recommended": true
+                    }
+                },
+                {
+                    "title": "Oil Control Niacinamide Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight",
+                        "niacinamide",
+                        "zinc",
+                        "panthenol",
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "ingredients": [
+                        "niacinamide",
+                        "zinc",
+                        "panthenol"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1023",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 312.759,
+                    "price_tier": "mid",
+                    "discount_percentage": 0.0,
+                    "review_count": 5062,
+                    "inventory_status": "In Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1023",
+                    "target_concerns": [
+                        "oiliness",
+                        "pores",
+                        "acne"
+                    ],
+                    "suitable_skin_types": [
+                        "oily",
+                        "combination",
+                        "normal"
+                    ],
+                    "usage_time": "night",
+                    "routine_step": "treat",
+                    "texture": "water serum",
+                    "finish": "matte",
+                    "active_strength_level": "beginner",
+                    "recommended_frequency": "daily",
+                    "minimum_recommended_age": 13,
+                    "max_usage_per_week": 14,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": false,
+                        "pm_fit": true,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": true,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 312.759,
+                        "recommendation": 0.809,
+                        "personalization": 0.729,
+                        "history_affinity": 0.902,
+                        "query_match": 0.38,
+                        "concern_affinity": 0.815,
+                        "ingredient_affinity": 0.411,
+                        "semantic_similarity": 0.0691
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "comparison",
+                        "theme": "minimal",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": false,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 181,
+                        "hover_time_seconds": 26,
+                        "scroll_depth": 67,
+                        "dwell_time_seconds": 239,
+                        "feedback_rating": null,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "salicylic acid for acne",
+                            "oily skin cleanser",
+                            "skincare for acne"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask",
+                            "retinol renewal night serum",
+                            "oil control niacinamide serum"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist",
+                            "gentle oat cleanser",
+                            "pore smoothing clay mask"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "barrier",
+                            "calming",
+                            "cleanse",
+                            "cucumber",
+                            "gentle",
+                            "glycerin",
+                            "green-tea",
+                            "hydration",
+                            "kaolin",
+                            "mask",
+                            "oat",
+                            "oil-control",
+                            "panthenol",
+                            "pores",
+                            "sensitive",
+                            "summer",
+                            "travel",
+                            "volcanic-ash",
+                            "weekly"
+                        ],
+                        "last_interaction_type": "click"
+                    },
+                    "next_best_action": "offer discount",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                },
+                {
+                    "title": "Vitamin C Glow Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning",
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e",
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "ingredients": [
+                        "vitamin-c",
+                        "ferulic-acid",
+                        "vitamin-e"
+                    ],
+                    "recommendation_reason": "Matches your previous clicks, hovers, or searches.",
+                    "product_id": "SK1045",
+                    "category": "skincare",
+                    "subcategory": "Serum",
+                    "score": 307.254,
+                    "price_tier": "mid",
+                    "discount_percentage": 14.0,
+                    "review_count": 5927,
+                    "inventory_status": "Low Stock",
+                    "redirect_url": "https://skincare.example.com/products/sk1045",
+                    "target_concerns": [
+                        "dullness",
+                        "dark spots",
+                        "uneven tone"
+                    ],
+                    "suitable_skin_types": [
+                        "normal",
+                        "oily",
+                        "combination",
+                        "dry"
+                    ],
+                    "usage_time": "morning",
+                    "routine_step": "treat",
+                    "texture": "lightweight serum",
+                    "finish": "natural glow",
+                    "active_strength_level": "intermediate",
+                    "recommended_frequency": "daily morning",
+                    "minimum_recommended_age": 18,
+                    "max_usage_per_week": 7,
+                    "routine_metadata": {
+                        "stage_order": 3,
+                        "am_fit": true,
+                        "pm_fit": false,
+                        "compatible_with_steps": [
+                            "moisturize",
+                            "protect"
+                        ]
+                    },
+                    "spf_rating": 0,
+                    "pa_rating": null,
+                    "safety_flags": {
+                        "alcohol_free": true,
+                        "fragrance_free": false,
+                        "essential_oil_free": false,
+                        "non_comedogenic": false,
+                        "pregnancy_safe": true,
+                        "vegan": true,
+                        "cruelty_free": true
+                    },
+                    "scores": {
+                        "overall": 307.254,
+                        "recommendation": 0.731,
+                        "personalization": 0.646,
+                        "history_affinity": 0.792,
+                        "query_match": 0.29,
+                        "concern_affinity": 0.562,
+                        "ingredient_affinity": 0.459,
+                        "semantic_similarity": 0.0575
+                    },
+                    "retrieval_context": {
+                        "semantic_backend": "sklearn_tfidf_vectorizer_v1"
+                    },
+                    "ui_context": {
+                        "layout": "list",
+                        "theme": "clean",
+                        "rank_position": 7
+                    },
+                    "analytics": {
+                        "shown": true,
+                        "hovered": true,
+                        "clicked": true,
+                        "purchased": false,
+                        "added_to_cart": false,
+                        "wishlisted": false,
+                        "shared": false,
+                        "watch_time_seconds": 85,
+                        "hover_time_seconds": 30,
+                        "scroll_depth": 20,
+                        "dwell_time_seconds": 99,
+                        "feedback_rating": 2.0,
+                        "conversion": false,
+                        "negative_feedback": false
+                    },
+                    "history_context": {
+                        "previous_queries": [
+                            "vitamin c for dullness",
+                            "combination skin moisturizer",
+                            "skincare for pores"
+                        ],
+                        "previous_hovered_titles": [
+                            "aloe recovery mist",
+                            "hyaluronic acid water gel",
+                            "matte mineral sunscreen spf50",
+                            "daily invisible sunscreen spf50"
+                        ],
+                        "previous_clicked_titles": [
+                            "aloe recovery mist"
+                        ],
+                        "previous_clicked_tags": [
+                            "aloe",
+                            "calming",
+                            "cucumber",
+                            "green-tea",
+                            "hydration",
+                            "summer",
+                            "travel"
+                        ],
+                        "last_interaction_type": "hover"
+                    },
+                    "next_best_action": "compare similar products",
+                    "safety_guidance": {
+                        "guidance": [],
+                        "warnings": [],
+                        "patch_test_recommended": false
+                    }
+                }
+            ],
+            "theme": "clean",
+            "layout": "comparison",
+            "total_products": 3
+        }
+    ],
+    "routine": {
+        "morning": [
+            {
+                "step": "cleanse",
+                "label": "Cleanser",
+                "title": "Rice Brightening Face Wash",
+                "product_type": "cleanser",
+                "why": "Fits the routine step and current recommendation context.",
+                "product_id": "SK1047",
+                "usage_time": "anytime"
+            },
+            {
+                "step": "tone",
+                "label": "Toner",
+                "title": "Green Tea Balancing Toner",
+                "product_type": "toner",
+                "why": "Fits the routine step and current recommendation context.",
+                "product_id": "SK1023",
+                "usage_time": "anytime"
+            },
+            {
+                "step": "treat",
+                "label": "Serum/Treatment",
+                "title": "Vitamin C Glow Serum",
+                "product_type": "serum",
+                "why": "Fits the routine step and current recommendation context.",
+                "product_id": "SK1045",
+                "usage_time": "morning"
+            },
+            {
+                "step": "moisturize",
+                "label": "Moisturizer",
+                "title": "Hyaluronic Acid Water Gel",
+                "product_type": "moisturizer",
+                "why": "Supports the barrier and reduces irritation risk.",
+                "product_id": "SK1095",
+                "usage_time": "anytime"
+            },
+            {
+                "step": "protect",
+                "label": "Sunscreen",
+                "title": "Daily Invisible Sunscreen SPF50",
+                "product_type": "sunscreen",
+                "why": "Protects the routine with SPF.",
+                "product_id": "SK1040",
+                "usage_time": "morning"
+            }
+        ],
+        "night": [
+            {
+                "step": "cleanse",
+                "label": "Cleanser",
+                "title": "Rice Brightening Face Wash",
+                "product_type": "cleanser",
+                "why": "Fits the routine step and current recommendation context.",
+                "product_id": "SK1047",
+                "usage_time": "anytime"
+            },
+            {
+                "step": "tone",
+                "label": "Toner",
+                "title": "Green Tea Balancing Toner",
+                "product_type": "toner",
+                "why": "Fits the routine step and current recommendation context.",
+                "product_id": "SK1023",
+                "usage_time": "anytime"
+            },
+            {
+                "step": "treat",
+                "label": "Treatment",
+                "title": "Retinol Renewal Night Serum",
+                "product_type": "serum",
+                "why": "Matches the active ingredient requested in the query.",
+                "product_id": "SK1055",
+                "usage_time": "night"
+            },
+            {
+                "step": "moisturize",
+                "label": "Moisturizer",
+                "title": "Centella Calming Gel",
+                "product_type": "moisturizer",
+                "why": "Supports the barrier and reduces irritation risk.",
+                "product_id": "SK1090",
+                "usage_time": "anytime"
+            },
+            {
+                "step": "seal",
+                "label": "Face Oil/Seal",
+                "title": "Squalane Nourishing Face Oil",
+                "product_type": "face oil",
+                "why": "Fits the routine step and current recommendation context.",
+                "product_id": "SK1067",
+                "usage_time": "night"
+            }
+        ],
+        "notes": [
+            "Place retinol in the night treatment step, not the morning routine.",
+            "Use sunscreen every morning while using retinol.",
+            "Start active treatments slowly and keep barrier-support steps consistent."
+        ]
+    },
+    "safety_summary": {
+        "notes": [
+            "Retinol should be used at night and paired with daily sunscreen.",
+            "Start 1-2 nights per week, then increase only if skin tolerates it.",
+            "At age 20 or nearby, prefer beginner-strength retinol and avoid using it without a clear concern."
+        ],
+        "hard_constraints_applied": {
+            "pregnancy_safe": false,
+            "teen_retinoid_guard": false,
+            "avoided_ingredients": []
+        }
+    },
+    "components": [
+        {
+            "component_id": "safety-summary",
+            "component_type": "safety_banner",
+            "title": "Safety notes",
+            "priority": 1,
+            "layout": "full_width_banner",
+            "severity": "caution",
+            "message": "Retinol should be used at night and paired with daily sunscreen.",
+            "items": [
+                "Retinol should be used at night and paired with daily sunscreen.",
+                "Start 1-2 nights per week, then increase only if skin tolerates it.",
+                "At age 20 or nearby, prefer beginner-strength retinol and avoid using it without a clear concern."
+            ],
+            "render_hints": {
+                "icon": "shield",
+                "tone": "caution",
+                "dismissible": false
+            }
+        },
+        {
+            "component_id": "match_query",
+            "component_type": "hero_product_carousel",
+            "title": "Best Match For This Query",
+            "priority": 2,
+            "layout": "large_card_carousel",
+            "catalog_type": "query_match",
+            "theme": "clean",
+            "cards": [
+                {
+                    "card_id": "night_renewal_retinol_serum",
+                    "card_variant": "safety_product_card",
+                    "rank": 1,
+                    "title": "Retinol Renewal Night Serum",
+                    "subtitle": "Olay - Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture"
+                    ],
+                    "badges": [
+                        "Night use",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Retinol Renewal Night Serum",
+                        "subtitle": "Olay - Serum",
+                        "price_text": "INR 1450",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Night use / Fragrance free / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "retinol",
+                            "niacinamide",
+                            "peptide",
+                            "fine lines",
+                            "texture"
+                        ],
+                        "confidence": 0.383,
+                        "score": 391.364
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_1",
+                        "rank": 1,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "product_card",
+                    "rank": 2,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.287,
+                        "score": 312.759
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_2",
+                        "rank": 2,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "c_glow_serum_vitamin",
+                    "card_variant": "budget_card",
+                    "rank": 3,
+                    "title": "Vitamin C Glow Serum",
+                    "subtitle": "Minimalist - Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning"
+                    ],
+                    "badges": [
+                        "Pregnancy safe"
+                    ],
+                    "display": {
+                        "title": "Vitamin C Glow Serum",
+                        "subtitle": "Minimalist - Serum",
+                        "price_text": "INR 699",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "vitamin-c",
+                            "ferulic-acid",
+                            "vitamin-e",
+                            "dullness",
+                            "dark spots"
+                        ],
+                        "confidence": 0.269,
+                        "score": 307.254
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1045"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "match_query",
+                        "slot_id": "match_query_3",
+                        "rank": 3,
+                        "product_id": "SK1045",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "match_query",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "history_match",
+            "component_type": "personalized_product_carousel",
+            "title": "Because Of Your Recent Skincare History",
+            "priority": 3,
+            "layout": "because_you_viewed_carousel",
+            "catalog_type": "history_match",
+            "theme": "clean",
+            "cards": [
+                {
+                    "card_id": "night_renewal_retinol_serum",
+                    "card_variant": "history_match_card",
+                    "rank": 1,
+                    "title": "Retinol Renewal Night Serum",
+                    "subtitle": "Olay - Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture"
+                    ],
+                    "badges": [
+                        "Night use",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Retinol Renewal Night Serum",
+                        "subtitle": "Olay - Serum",
+                        "price_text": "INR 1450",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Night use / Fragrance free / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "retinol",
+                            "niacinamide",
+                            "peptide",
+                            "fine lines",
+                            "texture"
+                        ],
+                        "confidence": 0.383,
+                        "score": 391.364
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "history_match",
+                        "slot_id": "history_match_1",
+                        "rank": 1,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "history_match_card",
+                    "rank": 2,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.287,
+                        "score": 312.759
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "history_match",
+                        "slot_id": "history_match_2",
+                        "rank": 2,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "c_glow_serum_vitamin",
+                    "card_variant": "history_match_card",
+                    "rank": 3,
+                    "title": "Vitamin C Glow Serum",
+                    "subtitle": "Minimalist - Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning"
+                    ],
+                    "badges": [
+                        "Pregnancy safe"
+                    ],
+                    "display": {
+                        "title": "Vitamin C Glow Serum",
+                        "subtitle": "Minimalist - Serum",
+                        "price_text": "INR 699",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "vitamin-c",
+                            "ferulic-acid",
+                            "vitamin-e",
+                            "dullness",
+                            "dark spots"
+                        ],
+                        "confidence": 0.269,
+                        "score": 307.254
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1045"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "history_match",
+                        "slot_id": "history_match_3",
+                        "rank": 3,
+                        "product_id": "SK1045",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "history_match",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "next_routine_step",
+            "component_type": "routine_product_carousel",
+            "title": "Next Routine Step",
+            "priority": 4,
+            "layout": "step_based_row",
+            "catalog_type": "routine_next_step",
+            "theme": "clean",
+            "cards": [
+                {
+                    "card_id": "night_renewal_retinol_serum",
+                    "card_variant": "routine_step_card",
+                    "rank": 1,
+                    "title": "Retinol Renewal Night Serum",
+                    "subtitle": "Olay - Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture"
+                    ],
+                    "badges": [
+                        "Night use",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Retinol Renewal Night Serum",
+                        "subtitle": "Olay - Serum",
+                        "price_text": "INR 1450",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Night use / Fragrance free / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "retinol",
+                            "niacinamide",
+                            "peptide",
+                            "fine lines",
+                            "texture"
+                        ],
+                        "confidence": 0.383,
+                        "score": 391.364
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_1",
+                        "rank": 1,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "routine_step_card",
+                    "rank": 2,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.287,
+                        "score": 312.759
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_2",
+                        "rank": 2,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "c_glow_serum_vitamin",
+                    "card_variant": "routine_step_card",
+                    "rank": 3,
+                    "title": "Vitamin C Glow Serum",
+                    "subtitle": "Minimalist - Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning"
+                    ],
+                    "badges": [
+                        "Pregnancy safe"
+                    ],
+                    "display": {
+                        "title": "Vitamin C Glow Serum",
+                        "subtitle": "Minimalist - Serum",
+                        "price_text": "INR 699",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "vitamin-c",
+                            "ferulic-acid",
+                            "vitamin-e",
+                            "dullness",
+                            "dark spots"
+                        ],
+                        "confidence": 0.269,
+                        "score": 307.254
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1045"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "next_routine_step",
+                        "slot_id": "next_routine_step_3",
+                        "rank": 3,
+                        "product_id": "SK1045",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "next_routine_step",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "trending",
+            "component_type": "product_carousel",
+            "title": "Trending Skincare Picks",
+            "priority": 5,
+            "layout": "comparison",
+            "catalog_type": "trending",
+            "theme": "clean",
+            "cards": [
+                {
+                    "card_id": "night_renewal_retinol_serum",
+                    "card_variant": "safety_product_card",
+                    "rank": 1,
+                    "title": "Retinol Renewal Night Serum",
+                    "subtitle": "Olay - Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture"
+                    ],
+                    "badges": [
+                        "Night use",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Retinol Renewal Night Serum",
+                        "subtitle": "Olay - Serum",
+                        "price_text": "INR 1450",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Night use / Fragrance free / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "retinol",
+                            "niacinamide",
+                            "peptide",
+                            "fine lines",
+                            "texture"
+                        ],
+                        "confidence": 0.383,
+                        "score": 391.364
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_1",
+                        "rank": 1,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "product_card",
+                    "rank": 2,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.287,
+                        "score": 312.759
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_2",
+                        "rank": 2,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "c_glow_serum_vitamin",
+                    "card_variant": "budget_card",
+                    "rank": 3,
+                    "title": "Vitamin C Glow Serum",
+                    "subtitle": "Minimalist - Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning"
+                    ],
+                    "badges": [
+                        "Pregnancy safe"
+                    ],
+                    "display": {
+                        "title": "Vitamin C Glow Serum",
+                        "subtitle": "Minimalist - Serum",
+                        "price_text": "INR 699",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "vitamin-c",
+                            "ferulic-acid",
+                            "vitamin-e",
+                            "dullness",
+                            "dark spots"
+                        ],
+                        "confidence": 0.269,
+                        "score": 307.254
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1045"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "trending",
+                        "slot_id": "trending_3",
+                        "rank": 3,
+                        "product_id": "SK1045",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "trending",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "beginner_safe",
+            "component_type": "product_carousel",
+            "title": "Beginner-Safe Skincare",
+            "priority": 6,
+            "layout": "comparison",
+            "catalog_type": "beginner_safe",
+            "theme": "clean",
+            "cards": [
+                {
+                    "card_id": "night_renewal_retinol_serum",
+                    "card_variant": "safety_product_card",
+                    "rank": 1,
+                    "title": "Retinol Renewal Night Serum",
+                    "subtitle": "Olay - Serum",
+                    "brand": "Olay",
+                    "product_type": "serum",
+                    "price": 1450.0,
+                    "rating": 4.8,
+                    "primary_tags": [
+                        "anti-aging",
+                        "fine-lines",
+                        "night",
+                        "texture"
+                    ],
+                    "badges": [
+                        "Night use",
+                        "Fragrance free",
+                        "Top rated"
+                    ],
+                    "display": {
+                        "title": "Retinol Renewal Night Serum",
+                        "subtitle": "Olay - Serum",
+                        "price_text": "INR 1450",
+                        "rating_text": "4.8 rating",
+                        "reason_text": "Directly matches the product intent detected from your query.",
+                        "badge_text": "Night use / Fragrance free / Top rated"
+                    },
+                    "explanation": {
+                        "main_reason": "Directly matches the product intent detected from your query.",
+                        "matched_signals": [
+                            "retinol",
+                            "niacinamide",
+                            "peptide",
+                            "fine lines",
+                            "texture"
+                        ],
+                        "confidence": 0.383,
+                        "score": 391.364
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1055"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "beginner_safe",
+                        "slot_id": "beginner_safe_1",
+                        "rank": 1,
+                        "product_id": "SK1055",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "control_niacinamide_oil_serum",
+                    "card_variant": "product_card",
+                    "rank": 2,
+                    "title": "Oil Control Niacinamide Serum",
+                    "subtitle": "The Ordinary - Serum",
+                    "brand": "The Ordinary",
+                    "product_type": "serum",
+                    "price": 650.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "oil-control",
+                        "pores",
+                        "acne",
+                        "lightweight"
+                    ],
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe",
+                        "Fragrance free"
+                    ],
+                    "display": {
+                        "title": "Oil Control Niacinamide Serum",
+                        "subtitle": "The Ordinary - Serum",
+                        "price_text": "INR 650",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Beginner friendly / Night use / Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "niacinamide",
+                            "zinc",
+                            "panthenol",
+                            "oiliness",
+                            "pores"
+                        ],
+                        "confidence": 0.287,
+                        "score": 312.759
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1023"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "beginner_safe",
+                        "slot_id": "beginner_safe_2",
+                        "rank": 2,
+                        "product_id": "SK1023",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                },
+                {
+                    "card_id": "c_glow_serum_vitamin",
+                    "card_variant": "budget_card",
+                    "rank": 3,
+                    "title": "Vitamin C Glow Serum",
+                    "subtitle": "Minimalist - Serum",
+                    "brand": "Minimalist",
+                    "product_type": "serum",
+                    "price": 699.0,
+                    "rating": 4.6,
+                    "primary_tags": [
+                        "glow",
+                        "dullness",
+                        "antioxidant",
+                        "morning"
+                    ],
+                    "badges": [
+                        "Pregnancy safe"
+                    ],
+                    "display": {
+                        "title": "Vitamin C Glow Serum",
+                        "subtitle": "Minimalist - Serum",
+                        "price_text": "INR 699",
+                        "rating_text": "4.6 rating",
+                        "reason_text": "Matches your previous clicks, hovers, or searches.",
+                        "badge_text": "Pregnancy safe"
+                    },
+                    "explanation": {
+                        "main_reason": "Matches your previous clicks, hovers, or searches.",
+                        "matched_signals": [
+                            "vitamin-c",
+                            "ferulic-acid",
+                            "vitamin-e",
+                            "dullness",
+                            "dark spots"
+                        ],
+                        "confidence": 0.269,
+                        "score": 307.254
+                    },
+                    "actions": [
+                        {
+                            "action_type": "view_product",
+                            "label": "View product",
+                            "url": "https://skincare.example.com/products/sk1045"
+                        },
+                        {
+                            "action_type": "save_product",
+                            "label": "Save"
+                        },
+                        {
+                            "action_type": "add_to_routine",
+                            "label": "Add to routine"
+                        }
+                    ],
+                    "render_hints": {
+                        "desktop_layout": "product_card",
+                        "mobile_layout": "compact_product_card",
+                        "image_aspect_ratio": "1:1",
+                        "show_badges": true,
+                        "show_reason": true
+                    },
+                    "analytics": {
+                        "catalog_id": "beginner_safe",
+                        "slot_id": "beginner_safe_3",
+                        "rank": 3,
+                        "product_id": "SK1045",
+                        "events": [
+                            "impression",
+                            "click",
+                            "save",
+                            "add_to_routine"
+                        ]
+                    }
+                }
+            ],
+            "render_hints": {
+                "scroll": "horizontal",
+                "max_visible_cards": 4,
+                "show_reason": true
+            },
+            "analytics": {
+                "catalog_id": "beginner_safe",
+                "source": "recommendation_catalog"
+            }
+        },
+        {
+            "component_id": "routine-timeline",
+            "component_type": "routine_timeline",
+            "title": "Suggested routine",
+            "priority": 7,
+            "layout": "two_lane_timeline",
+            "sections": [
+                {
+                    "title": "Morning",
+                    "steps": [
+                        {
+                            "step_id": "morning_1",
+                            "step": "cleanse",
+                            "label": "Cleanser",
+                            "title": "Rice Brightening Face Wash",
+                            "product_type": "cleanser",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_2",
+                            "step": "tone",
+                            "label": "Toner",
+                            "title": "Green Tea Balancing Toner",
+                            "product_type": "toner",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_3",
+                            "step": "treat",
+                            "label": "Serum/Treatment",
+                            "title": "Vitamin C Glow Serum",
+                            "product_type": "serum",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "morning_4",
+                            "step": "moisturize",
+                            "label": "Moisturizer",
+                            "title": "Hyaluronic Acid Water Gel",
+                            "product_type": "moisturizer",
+                            "why": "Supports the barrier and reduces irritation risk."
+                        },
+                        {
+                            "step_id": "morning_5",
+                            "step": "protect",
+                            "label": "Sunscreen",
+                            "title": "Daily Invisible Sunscreen SPF50",
+                            "product_type": "sunscreen",
+                            "why": "Protects the routine with SPF."
+                        }
+                    ]
+                },
+                {
+                    "title": "Night",
+                    "steps": [
+                        {
+                            "step_id": "night_1",
+                            "step": "cleanse",
+                            "label": "Cleanser",
+                            "title": "Rice Brightening Face Wash",
+                            "product_type": "cleanser",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_2",
+                            "step": "tone",
+                            "label": "Toner",
+                            "title": "Green Tea Balancing Toner",
+                            "product_type": "toner",
+                            "why": "Fits the routine step and current recommendation context."
+                        },
+                        {
+                            "step_id": "night_3",
+                            "step": "treat",
+                            "label": "Treatment",
+                            "title": "Retinol Renewal Night Serum",
+                            "product_type": "serum",
+                            "why": "Matches the active ingredient requested in the query."
+                        },
+                        {
+                            "step_id": "night_4",
+                            "step": "moisturize",
+                            "label": "Moisturizer",
+                            "title": "Centella Calming Gel",
+                            "product_type": "moisturizer",
+                            "why": "Supports the barrier and reduces irritation risk."
+                        },
+                        {
+                            "step_id": "night_5",
+                            "step": "seal",
+                            "label": "Face Oil/Seal",
+                            "title": "Squalane Nourishing Face Oil",
+                            "product_type": "face oil",
+                            "why": "Fits the routine step and current recommendation context."
+                        }
+                    ]
+                }
+            ],
+            "notes": [
+                "Place retinol in the night treatment step, not the morning routine.",
+                "Use sunscreen every morning while using retinol.",
+                "Start active treatments slowly and keep barrier-support steps consistent."
+            ],
+            "render_hints": {
+                "show_step_numbers": true,
+                "group_by_period": true
+            }
+        },
+        {
+            "component_id": "top-product-comparison",
+            "component_type": "comparison_table",
+            "title": "Quick comparison",
+            "priority": 8,
+            "layout": "responsive_table",
+            "columns": [
+                {
+                    "product_id": "SK1055",
+                    "title": "Retinol Renewal Night Serum",
+                    "card_variant": "comparison_card",
+                    "badges": [
+                        "Night use",
+                        "Fragrance free",
+                        "Top rated"
+                    ]
+                },
+                {
+                    "product_id": "SK1023",
+                    "title": "Oil Control Niacinamide Serum",
+                    "card_variant": "comparison_card",
+                    "badges": [
+                        "Beginner friendly",
+                        "Night use",
+                        "Pregnancy safe"
+                    ]
+                },
+                {
+                    "product_id": "SK1045",
+                    "title": "Vitamin C Glow Serum",
+                    "card_variant": "comparison_card",
+                    "badges": [
+                        "Pregnancy safe"
+                    ]
+                }
+            ],
+            "rows": [
+                {
+                    "label": "Price",
+                    "values": [
+                        "INR 1450",
+                        "INR 650",
+                        "INR 699"
+                    ]
+                },
+                {
+                    "label": "Rating",
+                    "values": [
+                        "4.8",
+                        "4.6",
+                        "4.6"
+                    ]
+                },
+                {
+                    "label": "Key ingredients",
+                    "values": [
+                        "retinol, niacinamide, peptide",
+                        "niacinamide, zinc, panthenol",
+                        "vitamin-c, ferulic-acid, vitamin-e"
+                    ]
+                },
+                {
+                    "label": "Best for",
+                    "values": [
+                        "fine lines, texture",
+                        "oiliness, pores",
+                        "dullness, dark spots"
+                    ]
+                },
+                {
+                    "label": "Use",
+                    "values": [
+                        "Night",
+                        "Night",
+                        "Morning"
+                    ]
+                }
+            ],
+            "render_hints": {
+                "sticky_first_column": true,
+                "compact_on_mobile": true
+            }
+        }
+    ]
+}
