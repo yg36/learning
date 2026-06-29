@@ -41,3 +41,5 @@ This is a learning/practice repository. It is useful for history, but it should 
 - If this is a notebook repository, run it in a clean Jupyter or VS Code notebook environment.
 - If this is a frontend app, run the install/build commands before judging the project.
 - Some older practice repositories are kept public for learning history, not as primary portfolio pieces.
+
+<!-- repository-refresh: 2026-06-29 | preserved-order-rank: 069/71 -->
